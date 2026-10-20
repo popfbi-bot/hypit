@@ -163,7 +163,7 @@ Your agent can check the environment, request the credentials the video needs, g
 
 - **Clone any video:** drop in a video, get the whole workflow — footage, captions, B-roll, effects. Not a script breakdown.
 - **One workflow, 100 variants:** reuse the composition and existing material; generate the parts that change.
-- **Pluggable components:** swap the host without touching the captions. Use the library, fork it, or write your own.
+- **Pluggable components:** swap the host without touching the captions. Use an installed package, adapt an example, or write your own.
 - **Open source:** no Hypit seat pricing, per-render fees or added watermark. Model-service usage is billed by the service you choose.
 
 ## What Hypit Can Build
@@ -212,6 +212,10 @@ commands and the repository layout.
     <td>Questions</td>
     <td><a href="https://discord.gg/85hnyQnxpn">Discord</a> or <a href="https://t.me/hypitai">Telegram</a></td>
   </tr>
+  <tr>
+    <td>Upgrading existing projects</td>
+    <td><a href="./migrations/0.3.md">0.3 migration guide</a> · <a href="./migrations/0.3.1.md">0.3.1 SDK migration guide</a></td>
+  </tr>
 </table>
 
 ## Launch Partners
@@ -238,6 +242,17 @@ commands and the repository layout.
       </a>
     </td>
     <td><a href="https://tokendance.space/?utm_source=hypit">TokenDance</a> offers builders a unified multi-model gateway with optimized inference costs. Through programs like the Billion-Token Subsidy and the Developer Program, TokenDance helps early-stage builders cut costs so they can focus on product validation and growth.</td>
+  </tr>
+  <tr>
+    <td width="220" align="center">
+      <a href="https://agentsky.dev/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./docs/public/agentsky-dark.png">
+          <img alt="AgentSky" src="./docs/public/agentsky-light.png" width="165">
+        </picture>
+      </a>
+    </td>
+    <td><a href="https://agentsky.dev/">AgentSky</a> is a cloud platform for running AI agents such as Claude Code, Codex, OpenClaw, and Hermes. Each agent works on its own cloud computer, helping users tackle coding, research, and everyday tasks. Through CLI and MCP integrations, users can discover agents, delegate work, and retrieve results directly from their existing workflows.</td>
   </tr>
   <tr>
     <td width="220" align="center">

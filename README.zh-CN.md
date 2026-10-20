@@ -162,7 +162,7 @@ Agent 会检查环境，索要这条视频需要的凭据，生成素材并构�
 
 - **真的能 Clone：** 丢一条视频进来，拿到整份 workflow —— 画面、字幕、B-roll、特效。不是拆解脚本。
 - **一份 workflow，100 个变体：** 复用编排和已有素材，需要变化的部分再生成。
-- **可插拔组件：** 换主播不动字幕。用组件库、fork 一个，或自己写。
+- **可插拔组件：** 换主播不动字幕。使用已安装的包、改造一个示例，或自己编写。
 - **开源：** Hypit 不按人头或渲染次数收费，也不添加水印。模型服务费用由你选择的服务方收取。
 
 ## Hypit 能构建什么
@@ -204,11 +204,15 @@ Agent 会检查环境，索要这条视频需要的凭据，生成素材并构�
     <td>问题咨询</td>
     <td><a href="https://discord.gg/85hnyQnxpn">Discord</a> 或 <a href="https://t.me/hypitai">Telegram</a></td>
   </tr>
+  <tr>
+    <td>旧项目升级</td>
+    <td><a href="./migrations/0.3.zh-CN.md">0.3 迁移指南</a> · <a href="./migrations/0.3.1.zh-CN.md">0.3.1 SDK 迁移指南</a></td>
+  </tr>
 </table>
 
-扫码添加 Hypit 小助手加入微信群：
+扫码加入微信群：
 
-<img alt="扫码添加 Hypit 小助手加入微信群" src="./docs/public/wechat-group.jpg?v=12" width="320">
+<img alt="扫码加入微信群" src="./docs/public/wechat_group.jpg" width="320">
 
 ## Launch 伙伴
 
@@ -234,6 +238,17 @@ Agent 会检查环境，索要这条视频需要的凭据，生成素材并构�
       </a>
     </td>
     <td><a href="https://tokendance.space/?utm_source=hypit">TokenDance</a> 为开发者提供优化了推理成本的统一多模型网关。通过百亿 Token 补贴和开发者计划，TokenDance 帮助早期开发者大幅降低成本，更专注于产品验证与业务增长。</td>
+  </tr>
+  <tr>
+    <td width="220" align="center">
+      <a href="https://agentsky.dev/">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./docs/public/agentsky-dark.png">
+          <img alt="AgentSky" src="./docs/public/agentsky-light.png" width="165">
+        </picture>
+      </a>
+    </td>
+    <td><a href="https://agentsky.dev/">AgentSky</a> 是一个用于运行 Claude Code、Codex、OpenClaw 和 Hermes 等 AI 智能体的云平台。每个智能体都在独立的云端计算机上运行，帮助用户完成编程、研究和日常任务。通过 CLI 和 MCP 集成，用户可以直接在现有工作流程中发现智能体、委派任务并获取结果。</td>
   </tr>
   <tr>
     <td width="220" align="center">
